@@ -115,7 +115,8 @@ import { codeType, signupCredentialsType, userInfoType } from "@/vite-env";
 // });
 export const api = createApi({
     baseQuery: fetchBaseQuery({
-        baseUrl: "http://localhost:4000",
+        // baseUrl: "http://localhost:4000",
+        baseUrl: "https://compiler-backend-4v74.onrender.com",
         credentials: "include",  // Ensures cookies are included with all requests
     }),
     tagTypes: ["myCodes", "allCodes"],
